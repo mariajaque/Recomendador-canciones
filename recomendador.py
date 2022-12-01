@@ -9,7 +9,7 @@ class GeneroNoEncontrado(Exception):
     # Definimos una clase excepción en caso de que el usuario
     # introduzca un filtro que no se encuentre en el dataset
 
-    print('\nNO ENCONTRADO')
+    pass
 
 
 def handler_signal(signal,frame):
